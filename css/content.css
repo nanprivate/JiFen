@@ -1,0 +1,103 @@
+*{margin:0;padding:0;list-style:none;}h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;font-size:12px;}
+p,dl,dd{margin:0;}
+ul,ol{list-style:none;margin:0;padding:0;}
+a{text-decoration:none;color:#333;}
+em,i{font-style:normal;}
+strong,b{font-weight: normal;}
+img{vertical-align:bottom;border:none;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;}
+
+/*表格*/
+table{border-collapse: collapse;}
+th,td{padding:0;}
+/*可根据实际情况重置*/
+th{font-weight:normal;/*vertical-align: top;text-align:left;*/}
+td{vertical-align: top;/*text-align:left;*/}
+
+
+input{margin:0;padding:0;outline:none;}
+/*清除表单元素获取焦点时的轮廓线*/
+/*border:none;*/
+input, textarea, select, button { font-family: inherit; font-size:inherit;}
+textarea{resize:none; overflow:auto;}
+
+.layout{width:1200px;margin:0 auto;}
+.top{width:100%;height:40px;background:#f3f3f3;}
+    .top_nav{height:40px;line-height:40px;float:left;}
+    .top_nav a{color:#000;font-size:12px;margin-right:29px;}
+    .tel_box{position:relative;float:left;width:58px;height:40px;padding-left:15px;line-height:40px;
+        font-size:12px;background:url("../images/tel.gif") no-repeat 0 15px;transition:0.5s;color:#474747;}
+    .tel{width:58px;height:40px;transition:0.5s;}
+    .tel_bottom{width:470px;height:0px;position:absolute;top:52px;left:-25px;overflow:hidden;transition:0.5s;}
+    .tel_bottom1{width:468px;height:160px;border:1px solid #d1d1d1;position:absolute;top:5px;left:0;}
+    .tel_bottom2{width:11px;height:5px;position:absolute;top:1px;left:24px;background:url("../images/tel_bottom_jt_03.png") no-repeat;}
+    .tel_bottom3{width:470px;height:2px;position:absolute;bottom:0;left:0px;background:#e6e6e6;}
+    .tel_box:hover .tel{color:#ff8400;}
+    .tel_box:hover .tel_bottom{height:169px;}
+    .tel_box:hover{background:url("../images/tel1.png") no-repeat 0 15px;}
+    .top_notice{width:351px;float:right;line-height:40px;font-size:12px;padding-left:30px;
+        background:url("../images/top_notice_bg.gif") no-repeat 0 14px;}
+.head1{height:92px;background:#fff;}
+    .lg{width:178px;height:45px;float:left;padding-top:20px;}
+    .lg2{width:446px;height:43px;float:left;margin-top:24px;margin-left:178px;overflow:hidden;}
+    img{transition:0.5s;}
+    .lg2:hover img{transform:scale(1.05);}
+    .search{float:right;padding-top:32px;}
+    .text{width:278px;height:27px;border:1px solid #e6e6e6;border-right:0;
+        color:#a0a1a1;float:left;padding-left:10px;font-size:11px;}
+    .button{width:72px;height:29px;background:#ff4400;border:0;color:#fff3ff;float:left;font-size:15px;}
+.title{height:42px;background:#ff4400;}
+    .title_nav{width:135px;float:left;line-height:42px;text-align:center;
+        background: url("../images/title_03.png") no-repeat right center;}
+    .title_nav a{font-size:18px;color:#fff;display:block;transition:0.5s;}
+    .title_nav:hover a{background:#e53e01;font-weight: bold;}
+    .yhdl{width:270px;;float:right;padding-left:35px;background: url("../images/yh.png") no-repeat 0 12px;}
+    .yhdl a{color:#fff;line-height:42px;}
+.bodya{height:1854px;background:#f1f1f1;padding-top:30px;}
+    .body1{width:1140px;height:1717px;margin:0 auto 80px;padding:30px;background:#fff;}
+    .body1_nav_box{width:1141px;height:51px;
+        border-right:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;}
+    .body1_nav{width:162px;height:49px;float:left;border-left:1px solid #e9e9e9;border-top:2px solid #e9e9e9;line-height:51px;text-align:center;transition:0.5s;}
+    .body1_nav a{font-size:16px;color:#474747;transition:0.5s;}
+    .body1_nav:nth-child(1) {border-top:2px solid red;}
+    .body1_nav:nth-child(1) .on{color:red;font-size:18px;}
+
+     .body1_nav2{margin-bottom:30px;width:1140px;height:45px;border:1px solid #e9e9e9;border-top:0;background:#fafafa;}
+     .body1_nav2 ul li{height:45px;float:left;margin-right:10px;cursor:pointer;}
+     .body1_nav2 ul li input{margin-left:15px;width:12px;height:12px;cursor:pointer;}
+     .body1_nav2 ul li i{display:inline-block;padding-left:8px;width:41px;height:45px;font:12px/45px "微软雅黑";cursor:pointer;}
+     .body1_nav2 ul li i:hover{color:#ff4400;}
+     .body1_nav2 .i1{background:url("../images/body1_nav2.png") no-repeat 40px 18px;}
+     .body1_nav2 .i2{background:url("../images/body1_nav2_2.png") no-repeat 40px 18px;}
+
+
+
+      .body1_box{width:208px;height:379px;color:#474747;float:left;margin-right:25px;}
+    .imgbox1{position:relative;width:204px;height:241px;overflow:hidden;border:1px solid #e9e9e9;}
+    .imgbox{width:206px;height:243px;transition:1s;}
+    .new{width:96px;height:67px;background:url("../images/tag_bg.png") no-repeat;position:absolute;top:0;left:0;}
+    .imgbox1:hover .imgbox{transform:scale(1.2);}
+    .imgwz{width:208px;height:34px;font-size:14px;color:#474747;line-height:21px;margin:18px auto 15px;}
+    .imgwz a{display:block;color:#474747;}
+    .imgjf{color:red;}
+.footer{height:292px;background:#dcdcdc;}
+    .footbox{width:186px;height:233px;background:#d2d2d2;float:left;margin-right:28px;margin-top:31px;margin-bottom:28px;
+    color:#474747;}
+    .tb{width:87px;height:87px;margin:25px 50px;}
+    .foottext{text-align:center;font-size:14px;}
+    .foottext a{color:#707070; font-size:12px;}
+    .ewm{position:relative;width:234px;height:234px;float:left;margin-top:31px;margin-left:77px;color:#474747;}
+    .ewm_text{position:absolute;top:15px;left:29px;width:176px;height:15px;font-size:16px;}
+    .ewm_text1{position:absolute;top:178px;left:85px;width:64px;height:15px;}
+    .ewm_hx{position:absolute;bottom:72px;left:13px;width:207px;height:2px;background:url("../images/hx_03.png") no-repeat;}
+    .ewm_text2{position:absolute;bottom:11px;left:0;width:234px;height:13px;color:#9696a7;}
+    .ewm_text2 a{color:#9696a7;}
+    .img_ewm{position:absolute;top:44px;left:72px;width:90px;height:90px;float:left;}
+.end{height:147px;background:#c9c9c9;padding-top:36px;}
+    .end_box{width:731px;height:12px;margin:0 auto;}
+    .end_box a{font-size:12px;color:#707070;}
+    .end_text1{width:414px;height:14px;font-size:11px;color:#707070;margin:18px auto;}
+    .end_text2{width:116px;height:12px;font-size:12px;color:#707070;margin:0 auto;}
+.go_top{display:none;width:44px;height:34px;background:#a0a0a0;border-radius:2px;position:fixed;right:0;bottom:0;padding-top:16px;padding-left:16px;cursor:pointer;}
+    .go_top_img{width:28px;height:16px;background:url("../images/go_out_03.png") no-repeat;}
